@@ -8,7 +8,7 @@ const AuthProvider = ({children})=>{
     const navigate = useNavigate();
 
     const handleAuth = (band)=>{
-        navigate('/');
+        navigate('/dashboard');
         setAuth(band);
     }
 

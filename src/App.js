@@ -37,25 +37,25 @@ function App() {
                     <li><a class="nav-link scrollto " href="#portfolio">Portafolio</a></li>
                     <li><a class="nav-link scrollto" href="#pricing">Tarifas</a></li>
                     <li><a class="nav-link scrollto" href="#team">Equipo</a></li>
-                    <li><a href="/#">Blog</a></li>
+                    
                     <li class="dropdown"><a href="/#"><span>Busqueda Rapida</span> <i class="bi bi-chevron-down"></i></a>
                       <ul>
-                        <li><a href="/#">Nosotros</a></li>
-                        <li class="dropdown"><a href="/#"><span>Servicios</span> <i class="bi bi-chevron-right"></i></a>
+                        <li><a href="#about">Nosotros</a></li>
+                        <li class="dropdown"><a href="#services"><span>Servicios</span> <i class="bi bi-chevron-right"></i></a>
                           <ul>
-                            <li><a href="/#">Servicio por Mensualidad</a></li>
-                            <li><a href="/#">Servicio por Semanas</a></li>
-                            <li><a href="/#">Servicio por Dias</a></li>
-                            <li><a href="/#">Servicio por Horas</a></li>
-                            <li><a href="/#">Servicios por Minutos</a></li>
-                            <li><a href="/#">Servicios Empresariales</a></li>
-                            <li><a href="/#">Servicios Personales</a></li>
-                            <li><a href="/#">Servicios Especiales</a></li>
+                            <li><a href="#services">Servicio por Mensualidad</a></li>
+                            <li><a href="#services">Servicio por Semanas</a></li>
+                            <li><a href="#services">Servicio por Dias</a></li>
+                            <li><a href="#services">Servicio por Horas</a></li>
+                            <li><a href="#services">Servicios por Minutos</a></li>
+                            <li><a href="#services">Servicios Empresariales</a></li>
+                            <li><a href="#services">Servicios Personales</a></li>
+                            <li><a href="#services">Servicios Especiales</a></li>
                           </ul>
                         </li>
-                        <li><a href="/#">Portafolio</a></li>
-                        <li><a href="/#">Tarifas</a></li>
-                        <li><a href="/#">Equipo</a></li>
+                        <li><a href="#portfolio">Portafolio</a></li>
+                        <li><a href="#pricing">Tarifas</a></li>
+                        <li><a href="#team">Equipo</a></li>
                       </ul>
                     </li>
                     <li><a class="nav-link scrollto" href="#contact">Contactanos</a></li>
@@ -251,7 +251,7 @@ function App() {
                     <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                       <div class="icon-box">
                         <i class="bi bi-card-checklist"></i>
-                        <h4><a href="/#">Servicio de Mensualidad</a></h4>
+                        <h4><a href="#pricing">Servicio de Mensualidad</a></h4>
                         <p>Nuestros clientes pueden contratar el servicio de pago de mensualidad que le permitira usar cualquiera de los parqueaderos de toda nuestra red de manera ilimitada durante el periodo contratado</p>
                       </div>
                     </div>
@@ -476,8 +476,9 @@ function App() {
                     <p>Todos nuestros servicios los puedes pagar online, aca conoceras todas nuestras tarifas.</p>
                   </div>
                   <div class="row">
-                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
                       <div class="box">
+                      <span class="advanced">Oferta Natalia</span>
                         <h3>Mensualidad</h3>
                         <h4><sup>$</sup>150.000<span> / mes</span></h4>
                         <ul>
@@ -613,23 +614,23 @@ function App() {
                 <div class="container">
                   <div class="row">
                     <div class="col-lg-3 col-md-6 footer-links">
-                      <h4>Useful Links</h4>
+                      <h4>Enlaces Utiles</h4>
                       <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="/#">Home</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="/#">About us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="/#">Services</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="/#">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="/#">Privacy policy</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#about">Nosotros</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#pricing">Tarifas</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Portafolio</a></li>
                       </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 footer-links">
-                      <h4>Our Services</h4>
+                      <h4>Nuestros Servicios</h4>
                       <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="/#">Web Design</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="/#">Web Development</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="/#">Product Management</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="/#">Marketing</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="/#">Graphic Design</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#services">Mensualidades</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#services">Minutos</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#services">Horas</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#services">Semana</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#services">Servicios Especiales</a></li>
                       </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 footer-contact">

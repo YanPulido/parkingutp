@@ -478,7 +478,7 @@ function App() {
                   <div class="row">
                     <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
                       <div class="box">
-                      <span class="advanced">Oferta Natalia</span>
+                      <span class="advanced">Premium</span>
                         <h3>Mensualidad</h3>
                         <h4><sup>$</sup>150.000<span> / mes</span></h4>
                         <ul>

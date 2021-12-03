@@ -17,6 +17,9 @@ let ClientShema = new Schema({
   finishsoat: {
     type: String
   },
+  placa: {
+    type: String
+  },
 }, {
   collection: 'Clients'
 })

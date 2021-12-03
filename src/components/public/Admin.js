@@ -12,6 +12,7 @@ export default class Admin extends Component {
     this.onChangeClientPhone = this.onChangeClientPhone.bind(this);
     this.onChangeClientStartDate = this.onChangeClientStartDate.bind(this);
     this.onChangeClientFinishDate = this.onChangeClientFinishDate.bind(this);
+    this.onChangeClientPlaca = this.onChangeClientPlaca.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
 
     // Setting up state
@@ -20,7 +21,8 @@ export default class Admin extends Component {
       document: '',
       phone: '',
       startsoat: '',
-      finishsoat: ''
+      finishsoat: '',
+      placa: ''
     }
   }
 
@@ -32,6 +34,11 @@ export default class Admin extends Component {
     this.setState({ document: e.target.value })
   }
 
+  onChangeClientPlaca(e) {
+    this.setState({ placa: e.target.value })
+  }
+
+  
   onChangeClientPhone(e) {
     this.setState({ phone: e.target.value })
   }
@@ -52,9 +59,10 @@ export default class Admin extends Component {
       document: this.state.document,
       phone: this.state.phone,
       startsoat: this.state.startsoat,
-      finishsoat: this.state.finishsoat
+      finishsoat: this.state.finishsoat,
+      placa: this.state.placa
     };
-    console.log("Objeto"+clientObject);
+    
    axios.post('http://localhost:4000/api/create-client', clientObject)
       .then(res => console.log(res.data)); 
 
@@ -63,7 +71,8 @@ export default class Admin extends Component {
       document: '',
       phone: '',
       startsoat: '',
-      finishsoat: ''
+      finishsoat: '',
+      placa: ''
     });
   }
 
@@ -75,7 +84,7 @@ export default class Admin extends Component {
         <section id="contact" class="contact">
           <div class="container" data-aos="fade-up">
             <div class="section-title">
-              <h3>Registro de cliente</h3>
+              <h3>Ingreso de cliente</h3>
             </div>
           
       
@@ -114,7 +123,7 @@ export default class Admin extends Component {
 
                   <div class="row">
                    
-                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <div class="col-md-5 form-group mt-3 mt-md-0">
                       Fecha inicio vigencia del soat
                       <input
                         type="date"
@@ -124,7 +133,7 @@ export default class Admin extends Component {
                         required
                       />
                     </div>
-                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <div class="col-md-5 form-group mt-3 mt-md-0">
                       Fecha del vencimiento del soat
                       <input
                         type="date"
@@ -134,12 +143,22 @@ export default class Admin extends Component {
                         required
                       />
                     </div>
+                    <div class="col-md-2 form-group mt-3 mt-md-0">
+                      Placa vehículo
+                      <input
+                        type="text"
+                        value={this.state.placa} onChange={this.onChangeClientPlaca} 
+                        class="form-control"
+                        placeholder="TEST-199"
+                        required
+                      />
+                    </div>
                   </div>
 
             
                   <div class="text-center">
                     <br></br>
-                    <button type="submit">Guardar</button>
+                    <button type="submit">Registrar cliente</button>
                   </div>
                 </form>
               </div>

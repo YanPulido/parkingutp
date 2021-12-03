@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router'
 import Home from '../components/public/Home'
 import { SignIn } from '../components/public/SignIn'
-import { Admin } from '../components/public/Admin'
+import Admin  from '../components/public/Admin'
 import { NotFound } from '../components/NotFound'
 
 

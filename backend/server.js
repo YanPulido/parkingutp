@@ -3,9 +3,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
-
-
-const url = `mongodb+srv://root:gprot1234@cluster0.mwqbq.mongodb.net/Vuecrudapp`;
+const url = `mongodb+srv://root:gprot1234@cluster0.mwqbq.mongodb.net/ParkingUTP`;
 
 const connectionParams={
   useNewUrlParser: true,
@@ -20,7 +18,7 @@ mongoose.connect(url,connectionParams)
   })
 
 
-const BicicletasAPI = require('./routes/Vehiculos.js')
+const UTPParkingAPI = require('./routes/Clients.js')
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
@@ -28,10 +26,9 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(cors());
 
-// ACA PODEMOS DECLARA LOS DIFERENTES METODOS -> DE BUSQUEDA ejemplo   /FindCategorias const CategoriasApi ruta de Categorias route
 
 // API
-app.use('/api', BicicletasAPI)
+app.use('/api', UTPParkingAPI)
 
 // Create port
 const port = process.env.PORT || 4000;

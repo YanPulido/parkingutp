@@ -1375,7 +1375,7 @@ export default function Home() {
           <div class="credits"></div>
         </div>
       </footer>
-      <div id="preloader"></div>
+     
       <a
         href="/#"
         class="back-to-top d-flex align-items-center justify-content-center"

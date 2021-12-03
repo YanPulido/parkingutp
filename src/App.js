@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* eslint-disable jsx-a11y/no-redundant-roles */
 //eslint-disable jsx-a11y/anchor-is-valid
 //eslint-disable jsx-a11y/no-redundant-roles
@@ -25,3 +26,5 @@ export default App;
 
 
 
+=======
+>>>>>>> origin

@@ -33,4 +33,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 \*\*Note: to run the api in express write to your preferred terminal
 
+### `cd backend`
+
 ### `npm run start`

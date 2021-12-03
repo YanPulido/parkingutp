@@ -4,10 +4,10 @@
 //eslint-disable-next-line
 import { useContext, useState } from 'react';
 import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
 import { AuthRouter } from './routes/AuthRouter';
 import { UnauthRouter } from './routes/UnauthRouter';
 import AuthContext from './context/AuthContext';
+
 
 function App() {
 

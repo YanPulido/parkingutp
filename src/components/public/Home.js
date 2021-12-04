@@ -55,11 +55,7 @@ export default function Home() {
                   Tarifas
                 </a>
               </li>
-              <li>
-                <a class="nav-link scrollto" href="#team">
-                  Equipo
-                </a>
-              </li>
+             
               <li>
                 <a href="/#">Blog</a>
               </li>
@@ -109,9 +105,7 @@ export default function Home() {
                   <li>
                     <a href="/#">Tarifas</a>
                   </li>
-                  <li>
-                    <a href="/#">Equipo</a>
-                  </li>
+                
                 </ul>
               </li>
               <li>
@@ -887,168 +881,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="team" class="team section-bg">
-          <div class="container" data-aos="fade-up">
-            <div class="section-title">
-              <h2>Equipo</h2>
-              <p>.: Seccion exclusiva para nuestros colaboradores :.</p>
-            </div>
-            <div class="row">
-              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="member d-flex align-items-start">
-                  <div class="pic">
-                    <img
-                      src="assets/img/team/team-1.jpg"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                  <div class="member-info">
-                    <h4>Jassa</h4>
-                    <span>Chief Executive Officer</span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua..
-                    </p>
-                    <div class="social">
-                      <a href="/">
-                        <i class="ri-twitter-fill"></i>
-                      </a>
-                      <a href="/">
-                        <i class="ri-facebook-fill"></i>
-                      </a>
-                      <a href="/">
-                        <i class="ri-instagram-fill"></i>
-                      </a>
-                      <a href="/">
-                        {" "}
-                        <i class="ri-linkedin-box-fill"></i>{" "}
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-lg-6 mt-4 mt-lg-0"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div class="member d-flex align-items-start">
-                  <div class="pic">
-                    <img
-                      src="assets/img/team/team-2.jpg"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                  <div class="member-info">
-                    <h4>Jassa</h4>
-                    <span>Product Manager</span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua..
-                    </p>
-                    <div class="social">
-                      <a href="/">
-                        <i class="ri-twitter-fill"></i>
-                      </a>
-                      <a href="/">
-                        <i class="ri-facebook-fill"></i>
-                      </a>
-                      <a href="/">
-                        <i class="ri-instagram-fill"></i>
-                      </a>
-                      <a href="/">
-                        {" "}
-                        <i class="ri-linkedin-box-fill"></i>{" "}
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-lg-6 mt-4"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <div class="member d-flex align-items-start">
-                  <div class="pic">
-                    <img
-                      src="assets/img/team/team-3.jpg"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                  <div class="member-info">
-                    <h4>Jassa</h4>
-                    <span>CTO</span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua..
-                    </p>
-                    <div class="social">
-                      <a href="/">
-                        <i class="ri-twitter-fill"></i>
-                      </a>
-                      <a href="/">
-                        <i class="ri-facebook-fill"></i>
-                      </a>
-                      <a href="/">
-                        <i class="ri-instagram-fill"></i>
-                      </a>
-                      <a href="/">
-                        {" "}
-                        <i class="ri-linkedin-box-fill"></i>{" "}
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-lg-6 mt-4"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <div class="member d-flex align-items-start">
-                  <div class="pic">
-                    <img
-                      src="assets/img/team/team-4.jpg"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                  <div class="member-info">
-                    <h4>Jassa</h4>
-                    <span>Accountant</span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua..
-                    </p>
-                    <div class="social">
-                      <a href="/">
-                        <i class="ri-twitter-fill"></i>
-                      </a>
-                      <a href="/">
-                        <i class="ri-facebook-fill"></i>
-                      </a>
-                      <a href="/">
-                        <i class="ri-instagram-fill"></i>
-                      </a>
-                      <a href="/">
-                        {" "}
-                        <i class="ri-linkedin-box-fill"></i>{" "}
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+       
         <section id="pricing" class="pricing">
           <div class="container" data-aos="fade-up">
             <div class="section-title">
